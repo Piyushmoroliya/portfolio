@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Moroliya - Resume</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .main-box {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .resume-box {
+            display: flex;
+            flex-direction: row;
+            width: 90vw;
+            max-width: 1200px;
+            border: 3px solid black;
+            background-color: white;
+        }
+
+        .box-one {
+            background-color: #042842;
+            color: white;
+            width: 35%;
+            padding: 20px;
+        }
+
+        .box-two {
+            width: 65%;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+
+        .image-design {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+            border: 5px solid #00abf0;
+        }
+
+        h1, h2, h3 {
+            margin-bottom: 10px;
+        }
+
+        .section-title {
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .hr-style {
+            width: 60px;
+            height: 3px;
+            background-color: white;
+            border-radius: 20px;
+            margin: 5px 0 10px;
+        }
+
+        .hr-black {
+            background-color: black;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .skills, .info-style {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .boredr-hr {
+            border-top: 2px dashed #ccc;
+            margin: 20px 0;
+        }
+
+        .paragraph-style {
+            font-size: 16px;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        @media (max-width: 768px) {
+            .resume-box {
+                flex-direction: column;
+            }
+
+            .box-one, .box-two {
+                width: 100%;
+            }
+
+            .image-design {
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-box">
+        <div class="resume-box">
+            <!-- Left Box -->
+            <div class="box-one">
+                <img class="image-design" src="../assets/images/piyush homepage imh.jpeg" alt="Piyush Moroliya">
+                <h1 style="text-align: center;">Piyush Prakash Moroliya</h1>
+                <h2 style="text-align: center; color: #ccc;">Full Stack Developer</h2>
+
+                <div class="section-title">Contact Me</div>
+                <div class="hr-style"></div>
+                <ul class="info-style">
+                    <li>📍 Nagpur, Maharashtra</li>
+                    <li>📞 +91 7558228212</li>
+                    <li>📧 24moroliyap@rbunagpur.in</li>
+                    <li>🌐 piyushfullstackdeveloper</li>
+                    <li>🔗 linkedin.com/in/piyushmoroliya/</li>
+                </ul>
+
+                <div class="section-title">Skills</div>
+                <div class="hr-style"></div>
+                <p class="skills">HTML5, CSS3, Bootstrap, JavaScript</p>
+                <p class="skills">Java, Python, C</p>
+                <p class="skills">Xilinx Vivado, Arduino Uno</p>
+
+                <div class="section-title">Operating Systems</div>
+                <div class="hr-style"></div>
+                <p class="skills">Windows, macOS</p>
+
+                <div class="section-title">Technical Expertise</div>
+                <div class="hr-style"></div>
+                <ul class="info-style">
+                    <li>Web Development</li>
+                    <li>Frontend & Backend</li>
+                    <li>API Development</li>
+                    <li>Manual Testing</li>
+                </ul>
+
+                <div class="section-title">Languages</div>
+                <div class="hr-style"></div>
+                <p class="skills">Hindi, English, Marathi</p>
+            </div>
+
+            <!-- Right Box -->
+            <div class="box-two">
+                <div class="section-title">Education</div>
+                <div class="hr-style hr-black"></div>
+                <p><strong>B.Tech in Electronics and Computer Science</strong><br>Ramdeobaba University, Nagpur<br>2024 - 2028</p>
+                <hr class="boredr-hr">
+                <p><strong>12th (Science Stream)</strong><br>Concept School, Katol<br>2022 - 2024</p>
+                <hr class="boredr-hr">
+                <p><strong>10th (CBSE)</strong><br>Orchid Public School, Katol<br>2021 - 2022</p>
+                <hr class="boredr-hr">
+                <p><strong>Full Stack Development</strong><br>Enjoy Programming Pvt Ltd<br>2024 - Present</p>
+
+                <div class="section-title">Coding Journey</div>
+                <div class="hr-style hr-black"></div>
+                <p class="paragraph-style">Skilled in HTML, CSS, Bootstrap, JavaScript, Java, C, and Python. I build responsive interfaces and backend logic.</p>
+                <p class="paragraph-style">Aspiring full stack developer with a passion for scalable web applications, mastering both front-end and back-end technologies.</p>
+                <hr class="boredr-hr">
+
+                <div class="section-title">Certifications</div>
+                <div class="hr-style hr-black"></div>
+                <ul class="info-style">
+                    <li>Fundamentals of Full Stack Development - Enjoy Programming</li>
+                    <li>Python Academy of Prompt Engineering - Coursera</li>
+                    <li>Participant in Hackown - RBU Nagpur</li>
+                    <li>Upcoming Summer Internship - Enjoy Programming Pvt Ltd</li>
+                </ul>
+                <hr class="boredr-hr">
+
+                <div class="section-title">Interests</div>
+                <div class="hr-style hr-black"></div>
+                <p class="paragraph-style">
+                    Web Development, Problem Solving, Idea Generation, Startups, Artificial Intelligence, Deep Learning, Android & iOS Development, Traveling.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
